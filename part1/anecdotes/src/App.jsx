@@ -70,7 +70,7 @@ const App = () => {
       <DisplayVote votes={allClicks[selected]} />
       <Button text="Vote Anecdote" handleClick={() => {voteAnecdote()}} />
       <Button text="Next Anecdote" handleClick={() => {randValue()}} />
-    
+
       <Heading text="Anecdote with most Votes" />
       {anecdotes[bestQuote()]}
       <DisplayVote votes={allClicks[bestQuote()]} />
